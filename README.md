@@ -20,8 +20,15 @@ This project is part of a learning exercise to practice form design, layout, and
 
 ---
 
+## 🌐 Live Demo
+🔗 [View Live Project](https://dhanushxploit.github.io/Sign-up-Form/)
+
+---
+
 📸 Preview
 ![SignUp Screenshot](assets/preview.png) 
+
+---
 
 
 🖊 Author
