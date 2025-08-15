@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- The Image container of the left side panel -->
+    <div class="container">
+        <div class="background-img">
+            <img src="assets/bg.jpg" class="background-img" alt="bg">
+        </div>
+        <div class="background"></div>
+        <div class="logo">
+            <img src="assets/odin-lined.png" class="logo" alt="logo">
+            <span class="odinText">ODIN</span>
+
+        </div>
+        <p>Photo by <a href="Halie West">Halie West</a> on <a
+                href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">unsplash</a>
+        </p>
+    </div>
+
+
+    <!-- Right side panel -->
+    <div class="para">
+        <h3>This is not a real online service! You know you need something like this in your life to help you realize
+            your
+            deepest dreams.</h3>
+        <h3>Sign up now to get started.</h3>
+        <h3 class="text1">You know you want to.</h3>
+    </div>
+
+    <!-- sign-up panel -->
+
+    <div class="signUp">
+        <h2>Let's do this!</h2>
+
+        <!-- form -->
+
+        <form action="#" method="post">
+
+            <div class="info">
+
+                <div class="info1">
+                    <div>
+                        <label for="firstName">FIRST NAME</label>
+                        <input type="text" id="firstName" name="firstName" placeholder="Zoro" required>
+                    </div>
+
+                    <div>
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+
+                    <div>
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" placeholder="Enter password" required />
+
+
+                    </div>
+                </div>
+
+                <div class="info2">
+                    <div>
+                        <label for="lastName">LAST NAME</label>
+                        <input type="text" name="lastName" id="lastName" placeholder="Roronoa">
+                    </div>
+
+                    <div>
+                        <label for="phoneNumber">PHONE NUMBER</label>
+                        <input type="text" name="phoneNumber" id="phoneNumber">
+                    </div>
+
+                    <div>
+                        <label for="confirmPass">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirmPass" id="confirmPass" autocomplete="new-password" required>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+    </form>
+    </div>
+
+    <!-- button -->
+
+    <div class="button">
+        <button class="btn">Create Account</button>
+    </div>
+
+    <div class="login">
+        <h4>Already have an account? <span>Log in</span></h4>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
