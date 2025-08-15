@@ -21,7 +21,7 @@ This project is part of a learning exercise to practice form design, layout, and
 ---
 
 📸 Preview
-![MyCalci Screenshot](assets/preview.png) 
+![SignUp Screenshot](assets/preview.png) 
 
 
 🖊 Author
